@@ -60,6 +60,7 @@ export const AbIcon = styled.img`
   transform: scale(1.14);
   margin-bottom: 10px;
   object-fit: contain;
+  border-radius: 10px;
 `;
 
 export const AbH1 = styled.h1`
