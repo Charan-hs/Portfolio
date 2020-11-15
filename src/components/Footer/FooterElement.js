@@ -47,6 +47,11 @@ export const SIcons = styled.div`
 
 export const SIconLink = styled.a`
   color: #fff;
-  font-size: 24px;
+  font-size: 36px;
   margin: 0 20px;
+
+  &:hover {
+    transform: scale(1.25);
+    transition: all 0.2s ease-out;
+  }
 `;

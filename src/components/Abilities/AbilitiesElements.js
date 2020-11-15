@@ -76,9 +76,9 @@ export const Heading = styled.h1`
 
 export const SubTitle = styled.p`
   max-width: 440px;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 12px;
   color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
 `;
 
@@ -116,4 +116,11 @@ export const Img2 = styled.img`
 export const Img2Container = styled.div`
   display: flex;
   flex-wrap: wrap;
+`;
+
+export const IWraper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 `;
